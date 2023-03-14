@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.desc {
+	border: 1px solid gray;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 30px;
+}
+
+
+/* 초기화 */
+body, ul, li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+a:link, a:visit, a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+.container, .menu {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* 헤더 */
+header {
+	background: #c0c0c0;
+	color: #fff;
+}
+.logo {
+	text-align: center;
+	font-size: 3em;
+	padding: 50px 0;
+}
+.menu>ul {
+	overflow:auto;
+	color:yellow;
+}
+.menu li {
+	float: left;
+	text-align: center;
+	font-size: 1.2em;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+}
+/* 푸터 */
+footer {
+	background: #ddd;
+	padding: 30px 0;
+	text-align: center;
+	margin-top: 50px;
+}
+/*data*/
+.d1{
+	background:gray;
+	padding:30px 0;
+}
